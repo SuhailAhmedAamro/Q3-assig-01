@@ -47,7 +47,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🚀 Growth Mindset Challenge 💡")
+st.title("🚀💡")
 st.sidebar.subheader("🔑 User Login")
 
 user_name = st.sidebar.text_input("Enter Your Name")
@@ -107,5 +107,5 @@ if len(st.session_state["challenges"]) > 0:
 st.markdown("""
 ---
 💡 **Made with ❤️ by Suhail Ahmed Aamro**  
-📌 **Follow for more projects** | 🌍 **[GitHub](https://github.com/yourgithub)** | 📝 **[LinkedIn](https://linkedin.com/in/yourprofile)**
+📌 **Follow for more projects** | 🌍 **[GitHub](https://github.com/SuhailAhmedAamro/Q3-assig-01/blob/main/growth_mindset_app/app.py)** | 📝 **[LinkedIn](https://www.linkedin.com/in/suhail-ahmed-aamro-623863279/)**
 """, unsafe_allow_html=True)
